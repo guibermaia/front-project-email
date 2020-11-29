@@ -1,7 +1,7 @@
 img {
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    background: url("../img/bg-js-1920.jpg");
+    background: url("../../img/bg-js-1920.jpg");
     background-size:contain;
     background-position:top;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ img {
     width: 100%;
 }
 
-.input-usuario input[type=email] {
+.input-usuario input[type=email], input[type=password] {
     margin: 5px 0px 5px 0px;
     padding: 5px 0px 5px 0px;
     width: 100%;
